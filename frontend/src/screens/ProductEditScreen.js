@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { Form, Button } from 'react-bootstrap'
 import { useSelector, useDispatch } from 'react-redux'
 import Message from '../components/Message'
@@ -13,7 +13,7 @@ const ProductEditScreen = () => {
 
   const dispatch = useDispatch()
   const navigate = useNavigate()
-  const location = useLocation()
+  // const location = useLocation()
   const { id: productId } = useParams()
 
   const [name, setName] = useState('')

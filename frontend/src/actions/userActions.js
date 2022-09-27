@@ -6,6 +6,7 @@ import { user_details_request, user_details_success, user_details_fail, user_det
 import { update_profile_fail, update_profile_request, update_profile_success } from "../reducers/userReducers/userUpdateProfileSlice"
 import { user_list_request, user_list_success, user_list_fail, user_list_reset } from "../reducers/userReducers/userListSlice"
 import { user_delete_request, user_delete_success, user_delete_fail } from "../reducers/userReducers/userDeleteSlice"
+// eslint-disable-next-line
 import { user_update_request, user_update_success, user_update_fail, user_update_reset } from "../reducers/userReducers/userUpdateSlice"
 
 
@@ -56,6 +57,7 @@ export const register = (name, email, password) => async (dispatch) => {
       }
     }
 
+    // eslint-disable-next-line
     const { data } = await axios.post(
       '/api/users',
       { name, email, password },
@@ -179,6 +181,7 @@ export const deleteUser = (id) => async (dispatch, getState) => {
       }
     }
 
+    // eslint-disable-next-line
     const { data } = await axios.delete(
       `/api/users/${id}`,
       config

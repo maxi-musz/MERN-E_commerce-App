@@ -1,3 +1,5 @@
+// Each product screen description screen with reviews
+
 import React, { useState, useEffect } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
@@ -140,8 +142,11 @@ const ProductScreen = () => {
 
           <Row>
             <Col md={6}>
+            <br></br>
+            <br></br>
+            <br></br>
               <h2>Reviews</h2>
-              {product.reviews.length === 0 && <Message> No reviews</Message>}
+              {product.reviews.length === 0 && <Message> No reviews yet</Message>}
               <ListGroup variant='flush'>
                 {product.reviews.map(review => (
                   <ListGroup.Item key={review._id}>

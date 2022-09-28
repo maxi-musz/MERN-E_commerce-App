@@ -57,6 +57,11 @@ a {
 .carousel a {
   margin: 0 auto;
 }
+
+.product-description-image {
+  width: 15rem;
+  
+}
  
 @media (max-width: 900px) {
   .carousel-caption h2 {

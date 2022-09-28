@@ -72,30 +72,6 @@ const products = [
     numReviews: 8,
   },
   {
-    name: 'Flat Shoe',
-    image: '/images/Flat-shoe.jpg',
-    description:
-      'Good and long lasting shoe with high quality handmade specifications',
-    brand: 'Tetsol',
-    category: 'Shoes',
-    price: 23,
-    countInStock: 6,
-    rating: 3,
-    numReviews: 4,
-  },
-  {
-    name: 'Lcd Watch',
-    image: '/images/watch-1.jpg',
-    description:
-      'Good and long lasting shoe with high quality handmade specifications',
-    brand: 'Cannon',
-    category: 'Electronics',
-    price: 5,
-    countInStock: 5,
-    rating: 3,
-    numReviews: 15,
-  },
-  {
     name: 'Sony Playstation 4 Pro White Version',
     image: '/images/playstation.jpg',
     description:

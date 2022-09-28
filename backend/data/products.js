@@ -1,6 +1,6 @@
 const products = [
   {
-    name: 'Airpods Wireless Bluetooth Headphones',
+    name: 'Airpods',
     image: '/images/airpods.jpg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
@@ -12,7 +12,7 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'iPhone 11 Pro 256GB Memory',
+    name: 'iPhone 11 Pro 256GB',
     image: '/images/phone.jpg',
     description:
       'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
@@ -24,16 +24,100 @@ const products = [
     numReviews: 8,
   },
   {
-    name: 'Cannon EOS 80D DSLR Camera',
+    name: 'Cannon Camera',
     image: '/images/camera.jpg',
     description:
-      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+      'EOS 80D DSLR characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
     brand: 'Cannon',
     category: 'Electronics',
     price: 929.99,
     countInStock: 5,
     rating: 3,
     numReviews: 12,
+  },
+  {
+    name: 'Italian Shoe',
+    image: '/images/corporate-italian.jpg',
+    description:
+      'Characterized by versatile imaging specs, Best of its Designs',
+    brand: 'Silker',
+    category: 'Shoes',
+    price: 43,
+    countInStock: 4,
+    rating: 3,
+    numReviews: 6,
+  },
+  {
+    name: 'Half Shoe',
+    image: '/images/Female-shoe.jpg',
+    description:
+      'High Quality Leather made suitable for smart office wears and special function',
+    brand: 'Gucci',
+    category: 'Shoes',
+    price: 23,
+    countInStock: 6,
+    rating: 3,
+    numReviews: 2,
+  },
+  {
+    name: 'Female-sneakers',
+    image: '/images/Female-sneakers.jpg',
+    description:
+      'Characterized by versatile imaging specs, it has a hugh rugged and long life span',
+    brand: 'Givenchy',
+    category: 'Sneakers',
+    price: 35,
+    countInStock: 4,
+    rating: 3,
+    numReviews: 8,
+  },
+  {
+    name: 'Flat Shoe',
+    image: '/images/Flat-shoe.jpg',
+    description:
+      'Good and long lasting shoe with high quality handmade specifications',
+    brand: 'Tetsol',
+    category: 'Shoes',
+    price: 23,
+    countInStock: 6,
+    rating: 3,
+    numReviews: 4,
+  },
+  {
+    name: 'Iced Watch',
+    image: '/images/iced-watch.jpg',
+    description:
+      'Characterized by versatile imaging specs, the iced wacth further clarifies itself using a pair of robust operation techniques and an intuitive design',
+    brand: 'Sellor',
+    category: 'Watches',
+    price: 21,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 11,
+  },
+  {
+    name: 'Led Watch',
+    image: '/images/Led-watch.jpg',
+    description:
+      'High quality long lasting led watch sporting and recreation',
+    brand: 'WatchOriel',
+    category: 'Watches',
+    price: 8,
+    countInStock: 6,
+    rating: 3,
+    numReviews: 7,
+  },
+  {
+    name: 'Lcd Watch',
+    image: '/images/Touch-Lcd.jpg',
+    description:
+      'Good and long lasting shoe with high quality handmade specifications',
+    brand: 'Cannon',
+    category: 'Electronics',
+    price: 5,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 15,
   },
   {
     name: 'Sony Playstation 4 Pro White Version',

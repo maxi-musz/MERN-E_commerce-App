@@ -36,8 +36,8 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'Italian Shoe',
-    image: '/images/corporate-italian.jpg',
+    name: 'Ladies Shoe',
+    image: '/images/shoe-white.jpg',
     description:
       'Characterized by versatile imaging specs, Best of its Designs',
     brand: 'Silker',
@@ -84,32 +84,8 @@ const products = [
     numReviews: 4,
   },
   {
-    name: 'Iced Watch',
-    image: '/images/iced-watch.jpg',
-    description:
-      'Characterized by versatile imaging specs, the iced wacth further clarifies itself using a pair of robust operation techniques and an intuitive design',
-    brand: 'Sellor',
-    category: 'Watches',
-    price: 21,
-    countInStock: 5,
-    rating: 3,
-    numReviews: 11,
-  },
-  {
-    name: 'Led Watch',
-    image: '/images/Led-watch.jpg',
-    description:
-      'High quality long lasting led watch sporting and recreation',
-    brand: 'WatchOriel',
-    category: 'Watches',
-    price: 8,
-    countInStock: 6,
-    rating: 3,
-    numReviews: 7,
-  },
-  {
     name: 'Lcd Watch',
-    image: '/images/Touch-Lcd.jpg',
+    image: '/images/watch-1.jpg',
     description:
       'Good and long lasting shoe with high quality handmade specifications',
     brand: 'Cannon',
